@@ -7,14 +7,14 @@ export class LoginModel {
     }
 
     async getAll(){
-        const data = await this.#db.fetch(`SELECT * FROM login`)
+        const data = await this.#db.fetch(`SELECT * FROM users`)
         return data
     }
 
     async userRetrieve({ email}) {
         const data = await this.#db.fetch(
             `
-            SELECT * FROM login WHERE email = $1 
+            SELECT * FROM users WHERE email = $1 
         `,
             email
         );
