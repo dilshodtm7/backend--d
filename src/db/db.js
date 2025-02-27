@@ -7,7 +7,7 @@ export class PostgresModel {
 
     constructor() {
         this.#pg = new pg.Pool({
-            connectionString:'postgresql://forpredictor_user:aOIgsXdrgJ08sHFbmn2A2rrBpAMgMeSV@dpg-cumtkmpu0jms73b86540-a.oregon-postgres.render.com/forpredictor'
+            connectionString:'postgresql://forpredictor_user:aOIgsXdrgJ08sHFbmn2A2rrBpAMgMeSV@dpg-cumtkmpu0jms73b86540-a/forpredictor'
             
         })
     }
