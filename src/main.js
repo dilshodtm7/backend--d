@@ -20,12 +20,12 @@ import { routes } from './routes/routes.js';
 import cors from 'cors';
 import { Telegraf, Markup } from 'telegraf';
 
-const token = '7719888933:AAF8x3DkclgJOn-KpUag-hG_YdpK7afrAwQ';
+const token = '7719888933:AAFKnPI_842XbY-_nc18rh0UUbwk2EVC7tw';
 const bot = new Telegraf(token);
 
 const app = express();
 // const webAppUrl = 'https://aviashopbot.vercel.app';
-const webAppUrl = 'https://aviashopbot.netlify.app/';
+const webAppUrl = 'https://aviashopbot-prod.vercel.app';
 
 
 const casinoUrl = 'https://1wzyuh.com/casino/list?open=register&p=gmsj';
